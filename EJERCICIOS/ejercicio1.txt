@@ -1,0 +1,55 @@
+EJERCICIO 1
+
+Informacion sobre el tipo de contenido para el que los siguientes
+ software de servidor web es más adecuado (o más eficiente, o se usa más actualmente...):
+ apache, nginx, cherooke, lighttp, node.js, tomcat.
+
+
+
+Apache: Procesa muy bien contenidos dinamicos (PHP, PERL, PYTHON ..)
+	Apache es extremadamente configurable y ampliable por medio
+        de nuevos módulos.
+	Ofrece una total compatibilidad con la mayoría de aplicaciones
+        y es muy flexible y configurable a través de archivos de parametrizacion
+        que permiten definir el comportamiento del servidor web.
+
+
+
+Nginx : Es muy eficaz para servir paginas de contenido estatico, 
+        no tiene modulos para contenido dinamico. 
+        Es mas ligero, multiplataforma y facil de instalar.
+	Se puede usar como cache.
+	Puede funcionar como balanceador de carga.
+	Se puede usar junto a Apache.
+
+
+Cherooke: Mas rapido sirviendo contenido estatico y dinamico. 
+	  Pero necesita 2 modulos para contenidos dinamicos PHP y Python.
+ 	  Interfaz grafica.
+	  Puede ser actualizado en caliente sin parar o reiniciar el servicio.
+	  Tambien puede ser un balanceador de carga, separando las funciones
+	  de servir contenido estatico y dinamico entre los servidores,
+	  asi aumenta la eficiencia de la arquitectura.
+	  Soporta las tecnologias web mas extendidas, proxi streaming
+          video, almacenamiento en cache de contenido ...
+
+
+Lighttp:  Es mas ligero, ocupa menos memoria y menos recursos.
+          Optimizado cuando la velocidad es critica.
+	  Es ideal para servidores con mucha carga o pocos recursos.
+
+
+
+Node.js : Tiene la capacidad de mantener muchas conexiones abiertas y esperando.
+          Basado en Javascript, diseñado para la programacion a eventos.
+	  No siempre se puede arrancar desde el puerto 80, por lo que es necesario
+	  delegar el front en un servidor que sea tambien rapido y eficiente.
+          En la mayoria de ejemplos se usa conjuntamente a Nginx.
+
+
+Tomcat:  Es un contenedor Servlet, no es eficaz para servir paginas estaticas,
+         por ello se suele optar por integrarse mayormente con Apache, para servir las
+         páginas estáticas y por otro Tomcat (como contenedor Servlet) para ejecutar
+         Servlets y JSPs. 
+
+
