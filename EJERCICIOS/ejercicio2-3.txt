@@ -1,0 +1,32 @@
+EJERCICIO T2.3  ESCALABILIDAD
+
+¿Como analizar el nivel de carga de cada uno de los subsistemas en el servidor?
+
+Buscar herramientas y aprender a usarlas.
+
+1. Podemos usar desde Top  que es una herramienta 
+   que nos proporciona información de los procesos
+   que se estan corriendo en ese momento en tiempo real 
+   con valores de uso de CPU, memoria, swap y la
+   posibilidad de manupular procesos.
+   Presenta una interfaz simple que cuenta con varias partes.
+
+2. Gnome-System-Monitor, que es un monitor de sistema que
+   muestra los programas que se están ejecutando y la cantidad
+   de tiempo de procesador, se están utilizando memoria y espacio en disco.
+
+
+3. Nagios como sistema de monitorización de redes,
+   para la monitorización de servicios de red (SMTP, POP3, HTTP, SNMP...),
+   la monitorización de los recursos de sistemas hardware 
+   (carga del procesador, uso de los discos, memoria, estado de los puertos...),
+   posibilidad de monitorización remota mediante túneles SSL cifrados o SSH ...
+
+4. Munin permite monitorizar diversos parámetros de uno o varios sistemas, 
+   por ejemplo, el estado y carga de los servicios, temperaturas, espacio en disco, etc.
+   Funciona según una arquitectura cliente-servidor, en que un sistema servidor
+   recoge y organiza datos recibidos de varios sistemas clientes.
+   Para monitorizar sólo un servidor, debe instalarse y configurarse los paquetes 
+   cliente y servidor en el mismo sistema.
+
+5.Ganglia es otro sistema de monitorizacion.
