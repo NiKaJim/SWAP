@@ -1,0 +1,13 @@
+EJERCICIO TEMA 2-2
+
+Buscar frameworks y librerias para diferentes lenguajes que 
+permitan hacer aplicaciones altamente disponibles con relativa
+facilidad.
+
+
+1. PM2 como gestor de procesos con balanceador de carga incorporado.
+
+2. MOF para conseguir alta disponibilidad en productos Microsoft.
+
+3. Linux-HA para clusters de alta disponibilidad Linux.
+
