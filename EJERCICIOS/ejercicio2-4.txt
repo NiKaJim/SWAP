@@ -1,0 +1,40 @@
+EJERCICIO T2.4  
+
+* Buscar ejemplos de balanceadores software y hardware (productos comerciales).  
+
+	--> Balanceadores software:
+
+		HAProxy y Nginx son los mas conocidos, el primero es software libre y actua como balanceador de carga con alta disponibilidad 
+                y  proxy para comunicaciones TCP y HTTP; mientras que Nginx es un servidor web que tambien se puede usar como balanceador 
+                de carga.
+		
+		Hay otros como Pen que es un balanceador de carga para los protocolos basados ??en TCP, o Linux Virtual Servers o Pound.
+
+	-->Balanceadores hardware:
+
+		Entre los más conocidos se encuentra, "Barracuda Load Balancer 640" que distribuye el tráfico entre múltiples servidores, 
+		tiene protección ante intrusos y soporta hasta 250 servidores;
+		Cisco tiene también una gran gama de balanceadores.		
+		LoadMaster 2600  optimiza el tráfico del usuario, la web y los servidores de aplicaciones. 
+		AppDirector OnDemand de la compañía Radware.
+
+
+* Buscar productos comerciales para servidores de aplicaciones. 
+
+	--> JBoss AS de JBoss (RedHat).
+	--> Geronimo y TomEE de Apache.
+	--> Internet Information Server
+	--> Base4 Server
+	--> Zope
+	--> WebSphere de IBM.
+	
+
+* Buscar productos comerciales para servidores de almacenamiento.
+
+	--> IBM EXP2500 Storage Enclosure	
+	--> HP ConvergedSystem 200-HC StoreVirtual System
+	--> Dell Compellent FS8600
+
+
+
+

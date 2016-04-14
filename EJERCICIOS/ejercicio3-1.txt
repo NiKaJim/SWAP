@@ -1,0 +1,18 @@
+EJERCICIO T3.1  CONECTAR SERVIDORES AL FRONT-RAIL
+
+* Buscar con qué órdenes de terminal o herramientas gráficas podemos configurar bajo Windows y bajo Linux el enrutamiento del tráfico de un servidor para pasar el tráfico desde una subred a otra.
+
+	--> En Windows Server se incluye una herramienta llamada "Servicio de enrutamiento y acceso remoto" 
+            
+	
+	--> En Linux, la configuración de red está en /etc/network/interfaces, en este archivo podemos
+            modificar la configuracion de red.
+            Para crear una ruta, podemos utilizar el comando route y añadirla o borrarla con los comandos "add" o "del". 
+            Y para mantenerlas una vez que se reinicia el servidor solo añadimos la ruta al archivo /etc/network/interfaces
+            mediante la línea up route add -net ....  
+
+Como órdenes de terminal en linux se usa route.
+Presenta un esquema como el siguiente:
+route operación [tipo] destino enrutador saltos
+Donde un claro ejemplo es:
+route add -net 169.255.0.0/16 gw 192.168.1.1 dev eth0

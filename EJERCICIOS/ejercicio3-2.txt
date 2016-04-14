@@ -1,0 +1,11 @@
+Ejercicio T3.2: 
+Buscar con qué órdenes de terminal o herramientas gráficas podemos configurar bajo Windows y bajo Linux el filtrado y bloqueo de paquetes.
+
+La principal orden en Linux es ' iptables ' , que contiene diferentes opciones para realizar el filtrado por ejemplo  especificando las direcciones IP, el protocolo, la interfaz , fragmentos etc ..
+Podemos ver muchas de sus opciones en este enlace :
+
+http://www.netfilter.org/documentation/HOWTO/es/packet-filtering-HOWTO-7.html
+
+En Windows en cambio el filtrado se puede realizar mediante el servicio de Enrutamiento como se describe en este enlace:
+
+https://technet.microsoft.com/es-es/library/cc754692%28v=ws.10%29.aspx
