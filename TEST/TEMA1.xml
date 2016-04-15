@@ -1,0 +1,18 @@
+<pregunta>
+  <enunciado>Indique los posibles problemas que debemos tener en cuenta para no crear un sitio web mal planificado></enunciado>
+  <opcionA>Arquitectura del Sistema, Disponibilidad y Organizacion</opcionA>
+  <opcionB>Disponibilidad, Arquitectura del Sistema y Diseño</opcionB>
+  <opcionC> Disponibilidad, Carga del Sistema, Arquitectura del Sistema</opcionC>
+  <opcionD>Arquitectura del Sistema, Carga del sistema y Redundancia</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+
+
+<pregunta>
+  <enunciado>Uno de los principales problemas que nos encontramos para un sitio web es evitar la carga del sistema.></enunciado>
+  <opcionA> Lo podemos solucionar con varios servidores</opcionA>
+  <opcionB> Lo podemos solucionar con software adecuados</opcionB>
+  <opcionC> Lo podemos solucionar tomando medidas de la disponibilidad del sistema</opcionC>
+  <opcionD> Lo podemos solucionar teniendo en cuenta la escalabilidad</opcionD>
+  <solucion>D</solucion>
+</pregunta>
