@@ -1,0 +1,21 @@
+
+<pregunta> 
+<enunciado>Indique con que herramienta podemos comprobar el rendimiento de un servidor web</enunciado> 
+<opcionA>Con Opensat</opcionA> 
+<opcionB>Con Jmeter</opcionB> 
+<opcionC>Con Open webload</opcionC> 
+<opcionD>Con cualquiera de las anteriores</opcionD>
+<solucion>D</solucion> 
+</pregunta> 
+
+<pregunta> 
+<enunciado>Indique las principales metricas usadas para las prestaciones</enunciado> 
+<opcionA>Conexiones por minuto, Conexiones asociativas y Rendimiento</opcionA> 
+<opcionB>Conexiones por segundo, Conexiones de entrada, Conexiones de salida</opcionB> 
+<opcionC>Conexiones por segundo, Total conexiones concurrentes, Rendimiento</opcionC> 
+<opcionD>Conexiones de entrada, Conexiones de salida, bits por segundo</opcionD>
+<solucion>C</solucion> 
+</pregunta> 
+
+
+
