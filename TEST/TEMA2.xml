@@ -1,0 +1,19 @@
+<pregunta>
+<enunciado>¿Cuando actualizamos nuestro servidor web que tipo de no disponibilidad estamos tratando?</enunciado> 
+<opcionA>No programado</opcionA> 
+<opcionB>Tiempo compartido</opcionB> 
+<opcionC>Programado</opcionC> 
+<opcionD>Programado mediante tiempo compartido</opcionD>
+<solucion>C</solucion> 
+</pregunta> 
+
+
+
+<pregunta> 
+<enunciado> Señale cual o cuales son algoritmos de balanceo</enunciado> 
+<opcionA>Tiempo de respuesta y minimax</opcionA> 
+<opcionB>Minimax</opcionB> 
+<opcionC>DMZ doble</opcionC> 
+<opcionD>Round Robin y prioridad</opcionD>
+<solucion>D</solucion> 
+</pregunta> 
