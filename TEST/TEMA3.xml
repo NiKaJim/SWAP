@@ -1,0 +1,9 @@
+<pregunta> 
+<enunciado>Indicar que configuracion tiene mayor seguridad</enunciado> 
+<opcionA>DMZ simple</opcionA> 
+<opcionB>DMZ complejo</opcionB> 
+<opcionC>DMZ doble</opcionC> 
+<opcionD>DMZ tradicional</opcionD>
+<solucion>C</solucion> 
+</pregunta> 
+
