@@ -1,0 +1,21 @@
+<pregunta> 
+<enunciado>¿Cuál no es un tipo de DMZ?</enunciado> 
+<opcionA>DMZ simple</opcionA> 
+<opcionB>DMZ complejo</opcionB> 
+<opcionC>DMZ doble</opcionC> 
+<opcionD>DMZ tradicional</opcionD>
+<solucion>B</solucion> 
+</pregunta>
+
+
+<pregunta> 
+<enunciado>Señale cual puede ser una desventaja de GSLB basado en DNS</enunciado> 
+<opcionA>DNS no se desarrollo para el balanceo de carga</opcionA> 
+<opcionB>Complejo funcionamientoDMZ complejo</opcionB> 
+<opcionC>Complejidad en la configuracion</opcionC> 
+<opcionD>Todas son correctas</opcionD>
+<solucion>D</solucion> 
+</pregunta>
+
+
+
