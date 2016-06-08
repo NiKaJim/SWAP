@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>	
+    <div class="box1">
+            <textarea id="chatLines" readonly="readonly"></textarea><br />
+            <textarea id="chatInput" placeholder="message"></textarea>
+    </div>
+
+    <div class="box2">
+            <input id="usernameInput" type="text" placeholder="username" /><br />
+            <input id="connectButton" type="button" value="Conectar" onclick="chat.onClickConnect()" /><br />
+            <ul id="usersList"><li style="text-align:center;">(no conectado)</li></ul>
+            <input id="sendButton" type="button" value="Enviar" onclick="chat.onClickSend()" />
+    </div>
+	
+</body>
+
+</html>
