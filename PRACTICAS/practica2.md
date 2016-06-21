@@ -9,7 +9,7 @@ en redes añadimos red nat en cada una de ellas.
 
 Procedemos a crear un fichero tar en el equipo remoto.
 Creamos un fichero en un equipo remoto mediante ssh con la siguiente orden:
-tar czf - directorio | ssh reyic1@10.0.2.6 'cat > ~/tar.tg'
+tar czf - directorio | ssh nika@192.168.142.129 'cat > ~/tar.tg'
 
 ![imagen](https://github.com/NiKaJim/SWAP/blob/master/imagenes/Capturas%20P2/m1%20www%20inicial.PNG)
 ![imagen](https://github.com/NiKaJim/SWAP/blob/master/imagenes/Capturas%20P2/m2%20www%20inicial.PNG)
